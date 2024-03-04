@@ -1,0 +1,19 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "Retrieve on my favorites.",
+  "name_for_human": "Retrieve on my favorites.",
+  "description_for_model": "custom gpts for searching through the user's documents (such as docx, pdf, text, and more) and specific website to find answers to questions and retrieve relevant information.",
+  "description_for_human": "custom gpts for searching through the user's documents (such as docx, pdf, text, and more) and specific website to find answers to questions and retrieve relevant information.",
+  "auth": {
+    "type": "user_http",
+    "authorization_type": "bearer"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://"ngrok실행을_통해_포워딩된_주소"/.well-known/openapi.yaml",
+    "has_user_authentication": false
+  },
+  "logo_url": "https://"ngrok실행을_통해_포워딩된_주소"/.well-known/logo.png",
+  "contact_email": "your@email.com", 
+  "legal_info_url": "http://www.example.com/legal"
+}
